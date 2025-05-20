@@ -8,7 +8,6 @@ class FrontController
         require 'libs/Config.php'; //de configuracion
         require 'libs/SPDO.php'; //PDO con singleton
         require 'libs/View.php'; //Mini motor de plantillas
-  
         require 'setup.php'; //Archivo con configuraciones.
         
         //Con el objetivo de no repetir nombre de clases, nuestros controladores

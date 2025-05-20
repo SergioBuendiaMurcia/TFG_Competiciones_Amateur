@@ -1,6 +1,9 @@
 <?php
 
-echo "Hello from IndexController!";
-echo "<br>";
+class IndexController {
+    public function index() {
+        $view = new View();
+        $view->show('home.php', ['mensaje' => '¡Bienvenido al sistema MVC en PHP!']);
+    }
+}
 
-?>
